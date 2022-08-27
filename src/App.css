@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(236, 190, 4); 
+  border-radius: 10px;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #deb941; 
+}
 .App {
   text-align: center;
 }
@@ -13,6 +27,9 @@
   }
 }
 
+.fnt{
+  font-family: 'Oswald', sans-serif;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +52,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.form-check-input:checked {
+  background-color: rgb(210, 158, 62);
+  border-color: rgb(214, 219, 113);
 }
